@@ -18,7 +18,7 @@ const ClaimTable = (props) => {
                         setIsLoading(false);
                 } )
                 .catch ( error => {
-                    console.log("Please try again", error);
+                    console.log("Please try again something went wrong", error);
                 })
         }
 

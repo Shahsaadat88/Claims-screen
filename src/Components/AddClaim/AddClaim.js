@@ -25,11 +25,11 @@ const AddClaim = () => {
               setIsLoading(false);
           }
           else {
-              console.log("something went wrong");
+              console.log("Please try again something went wrong");
           }
       })
       .catch ( error => {
-          console.log("something went wrong", error)
+          console.log("Please try again something went wrong", error)
       })
   }
 

@@ -3,7 +3,7 @@ const claimRow = (props) => {
     return (
         <tr>
             <td>{props.policyNumber}</td>
-            <td>{props.C}</td>
+            <td>{props.claimNumber}</td>
             <td>{props.date}</td>
             <td>{props.time}</td>
             <td>{props.title}</td>
